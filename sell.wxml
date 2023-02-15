@@ -1,0 +1,40 @@
+<!--pages/sell/sell.wxml-->
+<view class="a2">
+  <button class="buy2" size="mini" bindtap="goback" >我买的</button>
+  <button class="sell2" size="mini"  type="primary">我卖的</button>
+</view>
+<view class="container hdCon">
+<view style="font-size: 12px;">最近订单</view>
+</view>
+<view class="wkmain3">
+  <navigator url="/pages/mine/mine" class="wkbox3" >
+  <view class="imageplay3">
+  <image class="pic3" src="/icon/微信小程序图标/二手书3.jpg" mode="widthFix"/>
+  </view>
+  <view class="wkboxtxt3">
+    <view class="btitle3" style="font-size: 12px;">模拟电子技术基础 </view>
+       <view class="info3">
+        <view class="zhonglei3" style="font-size: 10px;">书籍类型：专业书</view>
+        <view class="mianshu3" style="font-size: 10px;">书籍ID：11111111111</view>
+        <view class="price3" style="font-size: 10px;">价格：￥16</view>
+        <view class="day3" style="font-size: 10px;">完成交易时间：2022-11-1</view>
+    </view>
+    </view>
+  </navigator>
+</view>
+<view class="wkmain4">
+  <navigator url="/pages/index/index" class="wkbox4" >
+  <view class="imageplay4">
+  <image class="pic4" src="/icon/微信小程序图标/二手书4.jpg" mode="widthFix"/>
+  </view>
+  <view class="wkboxtxt4">
+    <view class="btitle4" style="font-size: 12px;">高等数学辅导 </view>
+       <view class="info4"> 
+        <view class="zhonglei4" style="font-size: 10px;">书籍类型：教辅书</view>
+        <view class="mianshu4" style="font-size: 10px;">书籍ID：22222222222</view>
+        <view class="price4" style="font-size: 10px;">价格：￥20</view>
+        <view class="day4" style="font-size: 10px;">完成交易时间：2022-11-1</view>
+    </view>
+    </view>
+  </navigator>
+</view>

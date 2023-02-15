@@ -1,0 +1,44 @@
+<!--pages/buy/buy.wxml-->
+<view class="a1">
+  <button class="buy1" size="mini" type="primary" >我买的</button>
+  <button class="sell" size="mini"  bindtap="go">我卖的</button>
+</view>
+<view class="container aa2">
+<view style="font-size: 12px;" >最近订单</view>
+</view>
+<view class="wkmain">
+  <navigator url="/pages/juti/juti" class="wkbox1" >
+  <view class="imageplay">
+  <image class="picc1" src="/icon/微信小程序图标/荧.jpg" />
+  <image class="pic1" src="/icon/微信小程序图标/二手书1.jpg" mode="widthFix"/>
+  </view>
+  <view class="wkboxtxt">
+    <view class="btitle" style="font-size: 12px;">网页艺术设计与运用 </view>
+       <view class="info">
+        <view class="name" style="font-size: 10px;" >卖家昵称：荧</view>
+        <view class="zhonglei" style="font-size: 10px;">书籍类型：专业书</view>
+        <view class="mianshu" style="font-size: 10px;">书籍ID：88888888888</view>
+        <view class="price" style="font-size: 10px;">价格：￥15</view>
+        <view class="day" style="font-size: 10px;">完成交易时间：2022-10-1</view>
+    </view>
+    </view>
+  </navigator>
+</view>
+<view class="wkmain2">
+  <navigator url="/pages/juti2/juti2" class="wkbox2" >
+  <view class="imageplay2">
+  <image class="picc2" src="/icon/微信小程序图标/戴因.jpg" />
+  <image class="pic2" src="/icon/微信小程序图标/二手书2.jpg" mode="widthFix"/>
+  </view>
+  <view class="wkboxtxt2">
+    <view class="btitle2" style="font-size: 12px;">中国近现代史纲要 </view>
+       <view class="info2">
+        <view class="name2" style="font-size: 10px;" >卖家昵称：戴因</view>
+        <view class="zhonglei2" style="font-size: 10px;">书籍类型：思想教育类</view>
+        <view class="mianshu2" style="font-size: 10px;">书籍ID：99999999999</view>
+        <view class="price2" style="font-size: 10px;">价格：￥10</view>
+        <view class="day2" style="font-size: 10px;">完成交易时间：2022-10-1</view>
+    </view>
+    </view>
+  </navigator>
+</view>

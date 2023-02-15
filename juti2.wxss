@@ -1,0 +1,15 @@
+/* pages/juti2/juti2.wxss */
+.back1{width: 2px;left: 0px;}
+.btnback{padding: 0;}
+.tz1{ width: 50px;height: 50px;}
+.picc1{width:50px;height: 50px;padding: 10px 1px;}
+.name{padding: 20px 10px;}
+.time1{ font-size: 10px;font-weight: 100;}
+.xijie1{  width:320px ;height: 85px;display: flex; border: 1px  #eeeeee;}
+.wenben1{display: flex;}
+.pic1{width: 150px;}
+.info{padding: 0 2px;}
+.wkboxtxt{width: 320px;height: 240px; border: 1px dashed #eeeeee; }
+.tupian{ width: 320px;height:220px ;border: beige dashed  #eeeeee;}
+.pic11{width: 150px;}
+.pictur{display: flex;}

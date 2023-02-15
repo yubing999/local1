@@ -1,0 +1,57 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/juti/juti",
+    "pages/buy/buy",
+    "pages/xixi/xixi", 
+    "pages/logs/logs",
+    "pages/sell/sell",
+    "pages/mine/mine",
+    "pages/juti2/juti2",
+    "pages/siliao/siliao",
+    "pages/mine1/mine1"
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2E8B57",
+    "navigationBarTitleText": "二手商城书店",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#ff0000",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/icon/微信小程序图标/首页未选中.png",
+      "selectedIconPath": "/icon/微信小程序图标/首页.png"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "发布",
+      "iconPath": "/icon/微信小程序图标/发布未选中.png",
+      "selectedIconPath": "/icon/微信小程序图标/发布.png"
+
+  },
+  {
+    "pagePath": "pages/buy/buy",
+    "text": "买卖",
+    "iconPath": "/icon/微信小程序图标/买卖未选中.png",
+    "selectedIconPath": "/icon/微信小程序图标/买卖.png"
+
+  },
+{
+  "pagePath": "pages/mine/mine",
+  "text": "我的",
+  "iconPath": "/icon/微信小程序图标/我的未选中.png",
+  "selectedIconPath": "/icon/微信小程序图标/我的.png"
+
+
+}
+]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

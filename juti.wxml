@@ -1,0 +1,30 @@
+<!--pages/juti/juti.wxml-->
+<view class="butt1">
+<button class="btnback" bindtap="gotobuy"  style="background-color: transparent;width: 320px;height: 10px;"> 
+   <image class="back1" src="/icon/微信小程序图标/离谱.png" mode="widthFix"/>
+</button>  
+</view>
+  <view class="xaingxi1">
+   <view class="xijie1">
+   <navigator class="tz1" url="/pages/xixi/xixi"  style="background-color: transparent;"><image class="picc1" src="/icon/微信小程序图标/荧.jpg" /></navigator>
+      <view class="name" style="font-size: 15px;" >荧</view>
+    </view>
+</view>
+<view class="time1">发布时间：2022-09-12</view>
+<view class="wkboxtxt">
+       <view class="info">
+          <view class="price" style="font-size: 10px ;">定价：￥15</view>
+          <view class="mianshu" style="font-size: 10px;">清仓大甩卖，书籍半新，如有需要可以附赠一些相关的笔记，可小刀</view>
+        <view class="tupian">
+          <image class="pic11" src="/icon/微信小程序图标/二手书1.jpg" mode="widthFix"/> </view>
+        </view>
+    <view class="pictur">
+      <button class="but1" size="mini" style="font-size: 10px; font-weight: 100;height: 15px;">
+       收藏</button>
+     <button class="but2" size="mini" style="font-weight: 100;font-size: 10px;height: 15px;" bindtap="goback">
+    私聊</button> 
+     <button class="but2" open-type="share" size="mini" style="font-weight: 100;font-size: 10px;height: 15px;">分享</button>
+   </view>
+</view>
+  
+
